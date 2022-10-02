@@ -1,0 +1,31 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10%;
+}
+.container{
+   width: 100px;
+   height: 100px;
+   background-color:#FF0000 ;
+   border-radius: 100%;
+   border:2px solid white;
+
+}
+
+.stick{
+    height: 200px;
+    width: 70px;
+    background-color: #4D4D4D;
+   position: absolute;
+   
+    margin-top: 240px;
+    margin-left: 140px;
+    transform:rotate(-30deg);
+    z-index: -1;
+    border-bottom-left-radius:100px;
+    border-bottom-right-radius: 100px;
+
+
+}
